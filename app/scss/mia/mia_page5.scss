@@ -1,0 +1,116 @@
+@import 'vars';
+@import 'reset';
+@import 'global';
+
+.company {
+    &__inner {
+        padding: 66px 80px 34px 80px;
+    }
+
+    &__title {
+        color: #333;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 800;
+        position: relative;
+        top: -145px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__info {
+        width: 196px;
+        border-radius: 0px 5px;
+        background: #FAFAFA;
+        padding: 26px 22px 0px 22px;
+    }
+
+    &__info-title {
+        color: #333;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 26px;
+
+    }
+
+    &__info-link {
+        color: #666;
+        border-bottom: 1px solid #ffffff00;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        display: inline-block;
+        margin-bottom: 21px;
+    }
+
+    &__info-link:hover {
+        color: #efa00d;
+        border-bottom: 1px solid #efa00d;
+    }
+}
+
+.edge {
+    padding: 0px 150px 34px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    &__item {
+        width: 253px;
+    }
+
+    &__item:nth-child(1) {
+        border-bottom: 1px solid #b9b9b9;
+    }
+
+    &__item:nth-child(2) {
+        border-bottom: 1px solid #b9b9b9;
+    }
+
+    &__item:nth-child(3) {
+        border-bottom: 1px solid #b9b9b9;
+    }
+
+    &__item-icon {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    &__title {
+        color: #333;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 19px;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        color: #333;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+
+    &__item-link {
+        color: #333;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 25px;
+        text-decoration-line: underline;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 41px;
+    }
+}

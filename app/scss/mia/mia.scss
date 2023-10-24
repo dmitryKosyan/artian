@@ -1,0 +1,586 @@
+@import 'vars';
+@import 'reset';
+@import 'global';
+
+.header {
+    &__container {
+        width: 100%;
+        background-color: #202328;
+        padding: 15px;
+    }
+
+    &__main-block {
+        width: 100%;
+        background-image: url('../images/dist/miaImg/header-mia.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 1243px;
+        height: 619px;
+        border-radius: 5px;
+    }
+
+    &__inner {
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    &__menu-link {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin: 0 110px;
+    }
+
+    &__menu-item {
+        color: #FFF;
+        padding: 7px 15px;
+    }
+
+    &__item-link {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__menu-item:hover {
+        padding: 7px 15px;
+        border-radius: 0px 5px;
+        background: rgba(196, 196, 196, 0.20);
+    }
+
+    &__social-block {
+        display: flex;
+        gap: 10px;
+        padding: 5px 15px;
+        border-radius: 70px;
+        background: rgba(196, 196, 196, 0.25);
+    }
+
+    &__title {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 71px;
+        font-weight: 300;
+        margin-top: 90px;
+        margin-left: 140px;
+    }
+
+    &__bottom-block {
+        display: flex;
+        justify-content: space-around;
+        padding: 44px 89px 68px 89px;
+        background-color: #171A1A;
+    }
+
+    &__bottom-text {
+        max-width: 340px;
+        color: #6F7A8B;
+        text-align: right;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+
+    &__bottom-phone {
+        color: #FFF;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 46px;
+    }
+
+    &__btn {
+        padding: 12px 30px;
+        border-radius: 0px 5px;
+        background: #F88500;
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__btn:hover {
+        background-color: #f85b00;
+    }
+}
+
+
+
+.projects {
+    &__inner {
+        background-color: #202328;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        padding: 74px 173px 178px 173px
+    }
+
+    &__text {
+        color: #FFF;
+        text-align: right;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.3;
+        width: 417px;
+        padding-right: 45px;
+        border-right: 1px solid #2D3038;
+    }
+
+    &__title-block {
+        width: 419px;
+        padding-left: 45px;
+    }
+
+    &__subtitle {
+        color: #F88500;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 29px;
+        font-weight: 800;
+        line-height: 36px;
+
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        padding: 0 80px;
+        gap: 10px;
+        position: relative;
+        top: -100px;
+
+    }
+
+    &__inner-bottom {
+        padding-bottom: 61px;
+        background-color: #FAFAFA;
+
+    }
+
+    &__card {
+        width: 360px;
+        border-bottom: 2px solid transparent;
+        margin-bottom: 46px;
+    }
+
+    &__card:hover {
+        border-bottom: 2px solid #F88500;
+    }
+
+    &__img {
+        margin-bottom: 25px;
+    }
+
+    &__card-text {
+        color: #989DA5;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 23px;
+        padding-left: 45px;
+        position: relative;
+        margin-bottom: 5px;
+    }
+
+    &__card-text::before {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 16px;
+        background-image: url('../images/dist/miaImg/mapmarker.svg');
+        left: 25px;
+        top: 0;
+    }
+
+    &__inner-title {
+        display: flex;
+        padding-left: 27px;
+        padding-bottom: 33px;
+    }
+
+    &__card-tite {
+        width: 278px;
+        color: #333;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        padding-left: 15px;
+
+    }
+
+    &__btn {
+        padding: 12px 30px;
+        border-radius: 0px 5px;
+        background: #F88500;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+        text-transform: uppercase;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+
+    &__btn:hover {
+        background-color: #f85b00;
+    }
+}
+
+.about {
+    &__inner {
+        display: flex;
+        justify-content: center;
+        margin-top: 165px;
+        margin-left: 136px;
+        margin-right: 80px;
+        margin-bottom: 80px;
+    }
+
+    &__img-block {
+        position: relative;
+        width: 440px;
+        height: 521px;
+        margin-right: 74px;
+    }
+
+    &__border-img {
+        width: 235px;
+        height: 280px;
+        border-radius: 0px 5px;
+        opacity: 0.1;
+        background: #202328;
+        position: absolute;
+
+    }
+
+    &__img {
+        width: 100%;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    &__data {
+        width: 240px;
+        height: 95px;
+        background-color: #202328;
+        opacity: 0.9;
+        padding: 18px 25px;
+        display: flex;
+        position: relative;
+        top: -140px;
+        left: 222px;
+    }
+
+    &__data_number {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 52px;
+        font-weight: 700;
+        margin-right: 20px;
+    }
+
+    &__data-text {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+    &__chort-block {
+        width: 550px;
+    }
+
+    &__subtitle {
+        color: #F88500;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    &__title {
+        width: 420px;
+        color: #333;
+        font-family: Raleway;
+        font-size: 29px;
+        margin-bottom: 29px;
+        font-weight: 800;
+    }
+
+    &__svg-circle {
+        margin-right: 5px;
+    }
+
+    &__text {
+        color: #333;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-top: 28px;
+        margin-bottom: 37px;
+    }
+
+    &__inner-block {
+        display: flex;
+    }
+
+    &__item {
+        margin-right: 27px;
+    }
+
+    &__item-title {
+        color: #333;
+        font-family: Raleway;
+        font-size: 19px;
+        font-weight: 800;
+        width: 183px;
+        position: relative;
+        margin-bottom: 28px;
+        padding-left: 84px;
+    }
+
+    &__item-title::before {
+        content: '';
+        position: absolute;
+        width: 61px;
+        height: 43px;
+        background-image: url('../images/dist/miaImg/eco.svg');
+        left: 0;
+        transform: rotate(-21.946deg);
+    }
+
+    &__item-left {
+        color: #333;
+        font-family: Raleway;
+        font-size: 19px;
+        font-weight: 800;
+        width: 183px;
+        position: relative;
+        margin-bottom: 28px;
+        padding-left: 84px;
+    }
+
+    &__item-left::before {
+        content: '';
+        position: absolute;
+        width: 61px;
+        height: 60px;
+        background-image: url('../images/dist/miaImg/wood-cut.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        left: 0;
+    }
+
+    &__item-text {
+        color: #333;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 10px;
+        max-width: 260px;
+    }
+
+    &__item-link {
+        color: #333;
+        font-family: Raleway;
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 25px;
+        text-decoration-line: underline;
+    }
+}
+
+.partners {
+    &__inner {
+        background-image: url('../images/dist/miaImg/pertners-bg.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 100%;
+        max-width: 1280px;
+        padding: 70px 73px 55px 73px;
+    }
+
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 29px;
+        font-weight: 800;
+        margin-bottom: 57px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__item {
+        width: 250px;
+        text-align: center;
+    }
+
+    &__logo {
+        display: inline;
+    }
+
+    &__text {
+        color: #Ffff;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 27px;
+
+    }
+}
+
+.footer {
+    &__inner {
+        background-color: #171A1A;
+        padding: 40px 80px 70px 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        margin-right: 36px;
+    }
+
+    &__logo {
+        margin-bottom: 53px;
+    }
+
+    &__title-about {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    &__text-about {
+        color: rgba(255, 255, 255, 0.70);
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 344px;
+    }
+
+    &__rigth {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+
+    &__menu-title {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    &__menu-title::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background-color: #F88500;
+        top: 40px;
+        left: 0;
+    }
+
+    &__menu-item {
+        margin-bottom: 10px;
+    }
+
+    &__link {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__link:hover {
+        color: #F88500;
+        text-decoration-line: underline;
+    }
+
+    &__services {
+        margin-left: 90px;
+    }
+
+    &__services-item {
+        margin-bottom: 10px;
+    }
+
+    &__social {
+        margin-left: 100px;
+    }
+
+    &__social-text {
+        color: rgba(255, 255, 255, 0.70);
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 265px;
+        margin-bottom: 35px;
+    }
+
+    &__social-icons {
+        display: flex;
+    }
+
+    &__social-icon {
+        margin-right: 15px;
+        border-radius: 0px 5px;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        background: rgba(0, 0, 0, 0.00);
+        padding: 5px 15px;
+
+    }
+
+    &__social-icon:hover {
+        background-color: #F88500;
+    }
+}

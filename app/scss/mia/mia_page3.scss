@@ -1,0 +1,100 @@
+@import 'vars';
+@import 'reset';
+@import 'global';
+
+.service {
+    &__inner {
+        padding: 70px 80px;
+    }
+
+    &__title {
+        color: #333;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        width: 550px;
+        color: #999;
+        font-family: Raleway;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-bottom: 50px;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__card-block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &__card {
+        width: 530px;
+        display: flex;
+        border: 1px solid #E4E6E8;
+        background: rgba(196, 196, 196, 0.00);
+    }
+
+    &__card-left {
+        padding: 38px 35px 0px 35px;
+    }
+
+    &__card-title {
+        color: #F88500;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    &__card-title::before {
+        content: '';
+        position: absolute;
+        left: -35px;
+        top: 44px;
+        width: 3px;
+        height: 30px;
+        background: #F88500;
+    }
+
+    &__card-text {
+        max-width: 210px;
+        color: #7E7E7E;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+
+    &__btn-block {
+        background: #FAFAFA;
+        padding: 51px 530px 50px 530px;
+    }
+
+    &__btn {
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding: 12px 29px;
+        width: 202px;
+        border-radius: 0px 5px;
+        background: #F88500;
+    }
+
+}

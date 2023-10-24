@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+
+
+.container__fluid {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section-title_block {
+    @extend %section-block;
+
+}
+
+.main__page {
+    z-index: 2600;
+    position: fixed;
+    left: 0;
+    bottom: 90px;
+    width: 80px;
+    height: 60px;
+    margin-left: 50px;
+    border-radius: 10%;
+    padding: 20px 9px;
+    background-color: $blue;
+    color: $wite;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 800;
+}
